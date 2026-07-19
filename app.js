@@ -3,8 +3,8 @@ $(document).ready(function(){
         if (e.which == 13) {
            let url = `https://demoapi-nu.vercel.app/api/news`;
            async function mynews() {
-                let response = await fetch(url);
-                let data = await response.json();
+                let responce = await fetch(url);
+                let data = await responce.json();
                 console.log(data);
                
            } 
